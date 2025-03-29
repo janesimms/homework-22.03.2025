@@ -1,79 +1,112 @@
-body{
-    background-color: black ;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    height:100vh ;
+body {
+  background-color: hsl(0, 0%, 15%);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }
-img{
-    width:400px ;
-    height: 300px;
-    border-radius: 10px;
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
 }
-.didi{
-    background-color:darkgray;
-    width: 400px;
-    height: 300px;
-    border-radius:10px ;
+.didi {
+  background-color: hsl(0, 0%, 15%);
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
 }
-.big{
-    display: flex;
-    gap: 10px;
-    height:500px ;
+.big {
+  display: flex;
+  gap: 30px;
+  background-color: hsl(0, 0%, 10%);
+  padding: 30px;
+  border-radius: 10px;
 }
-h1{
-    color:white ;
+h1 {
+  color: white;
 }
-.p-1{
-    color: gray;
+.p-1 {
+  color: gray;
+  font-size: 20px;
+  width: 450px;
 }
-.div-3{
- display: flex;
- gap:240px ;
- border-bottom: 2px solid gray;
+.div-3 {
+  display: flex;
+  border-bottom: 2px solid gray;
+  align-items: center;
+  justify-content: space-between;
 }
-.div-4{
-    display: flex;
-    gap:270px ;
-    border-bottom: 2px solid gray;
+.div-4 {
+  display: flex;
+  border-bottom: 2px solid gray;
+  align-items: center;
+  justify-content: space-between;
 }
-.div-5{
-    display: flex;
-    gap:280px ;
-    border-bottom: 2px solid gray;
+.div-5 {
+  display: flex;
+  border-bottom: 2px solid gray;
+  align-items: center;
+  justify-content: space-between;
 }
-.div-6{
-    display: flex;
-    gap:330px ;
+.div-6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.btn-1{
-    background-color:lightcoral ;
-    border-radius: 30px;
-    border:2px solid lightcoral;
-    width: 100px;
-    height: 50px;
-    color: white;
+.btn-1:hover {
+  background-color: hsl(350, 100%, 60%);
+  cursor: pointer;
 }
-.btn-2{
-    background-color: black;
-    border-radius: 30px;
-    border:2px solid lightcoral;
-    width: 300px;
-    height: 60px;
-    color:lightcoral;
+.btn-1 {
+  background-color: hsl(350, 100%, 70%);
+  border-radius: 30px;
+  border: 2px solid hsl(350, 100%, 70%);
+  width: 100px;
+  height: 50px;
+  color: white;
+  transition: 0.6s;
 }
-.numbers{
-    color: crimson ;
+.btn-2:hover {
+  background-color: hsl(350, 100%, 60%);
+  color: white;
+  cursor: pointer;
 }
-.p-2{
-    color:rgb(62, 57, 57) ;
+.btn-2 {
+  background-color: transparent;
+  border-radius: 30px;
+  border: 2px solid hsl(350, 100%, 65%);
+  width: 300px;
+  height: 60px;
+  color: hsl(350, 100%, 65%);
+  transition: 0.9s;
 }
-.p-3{
-    color:rgb(62, 57, 57);
+.numbers {
+  color: hsl(350, 100%, 65%);
 }
-.p-4{
-    color:rgb(62, 57, 57) ;
+.p-2 {
+  color: hsl(0, 4%, 33%);
+  font-size: 20px;
 }
-.p-5{
-    color: rgb(62, 57, 57);
+.p-3 {
+  color: hsl(0, 4%, 33%);
+  font-size: 20px;
+}
+.p-4 {
+  color: hsl(0, 4%, 33%);
+  font-size: 20px;
+}
+.p-5 {
+  color: hsl(0, 4%, 33%);
+  font-size: 20px;
+}
+
+.div-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
